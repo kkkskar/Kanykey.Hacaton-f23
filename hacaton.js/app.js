@@ -52,7 +52,7 @@ const getApi = async () => {
         movCard.appendChild(titleDiv)
         titleDiv.className = 'movie__div-title'
 
-        let movTitle = document.createElement('h1')
+        let movTitle = document.createElement('h2')
         titleDiv.appendChild(movTitle)
         movTitle.className = 'movie__card-title'
         movTitle.innerText = el.title
